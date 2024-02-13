@@ -22,6 +22,7 @@ export default defineConfig(({ command }) => {
           },
           entryFileNames: 'commonHelpers.js',
         },
+        external: ['simplelightbox'], // Добавлено это
       },
       outDir: '../dist',
     },
